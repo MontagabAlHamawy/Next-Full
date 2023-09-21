@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+}
+
+.cardimg {
+  width: 18rem;
+  margin-left: 10px;
+}
+
+.cont-grid {
+  margin: 22px 39px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(281px, 1fr));
+  grid-gap: 11px;
+  gap: 32px;
+}
+body{
+  position: relative;
+
+}
