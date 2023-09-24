@@ -1,6 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: false,
-}
+// next.config.js
 
-module.exports = nextConfig
+module.exports = {
+  experimental: {
+    images: true, // يجب تغيير هذه القيمة إلى `false` أو إزالتها
+  },
+  // باقي إعدادات المشروع
+};
